@@ -1,9 +1,23 @@
 body{
     font-family: 'Dongle', sans-serif;
+    background-color: #AAAAAA;
+   
 }
 /* ----header-style start---- */
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.sec-container{
+background-color: #FFFFFF;
+width: 1200px;
+padding: 30px;
+border-radius: 20px;
+
+}
+
 .first-heading{
-    align-items: center;
+    align-items: center;  
 }
 h1{
     font-size: 40px;
@@ -15,10 +29,14 @@ h1{
 .first-heading{
     display: flex;
 }
+.navbar{
+    display: flex;
+    justify-content: end;
+}
 nav ul{
     display: flex;
-    font-size: 35px;
-    margin-left:450px
+    font-size: 25px;
+    margin-left: 420px;
 
 }
 nav li{
@@ -29,6 +47,7 @@ nav li{
 /* first-topic start */
 .first-topic{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .pragraph{
@@ -54,11 +73,20 @@ nav li{
 .fa-long-arrow-alt-right{
     position: relative;
 }
-
-
-
 /* first-topic end */
-
+/* second topic start */
+hr{
+    display: flex;
+    border:1px solid #D1D1D1;
+    margin-top: 27px;
+    margin-bottom: 27px; 
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+/* second topic end */
     
 
 
