@@ -1,0 +1,36 @@
+body{
+    font-family: 'Dongle', sans-serif;
+}
+/* ----header-style start---- */
+h1{
+    font-size: 40px;
+    margin-left: 30px;
+}
+.fa-earlybirds{
+    color: #E02C6D;
+}
+.first-heading{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    font-size: 35px;
+    margin-left: 480px;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+/* ----header-style end---- */
+
+    
+
+
+
+
+
+    
+    
+   
+
