@@ -2,6 +2,9 @@ body{
     font-family: 'Dongle', sans-serif;
 }
 /* ----header-style start---- */
+.first-heading{
+    align-items: center;
+}
 h1{
     font-size: 40px;
     margin-left: 30px;
@@ -15,7 +18,7 @@ h1{
 nav ul{
     display: flex;
     font-size: 35px;
-    margin-left: 480px;
+    margin-left:450px
 
 }
 nav li{
@@ -23,6 +26,38 @@ nav li{
     margin-right: 20px;
 }
 /* ----header-style end---- */
+/* first-topic start */
+.first-topic{
+    display: flex;
+    align-items: center;
+}
+.pragraph{
+    margin-left: 35px;
+    font-size: 35px;
+}
+.influ1 img{
+    width: 600px;
+    height: 500px;
+}
+.button{
+    
+    text-decoration: none;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #EF3B7C;
+    padding: 10px 20px;
+    border-radius: 20px;
+ 
+
+}
+.fa-long-arrow-alt-right{
+    position: relative;
+}
+
+
+
+/* first-topic end */
 
     
 
