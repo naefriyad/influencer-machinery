@@ -88,9 +88,15 @@ hr{
 }
 /* second topic end */
 /* third topic start */
-.collections{
+.parent-section{
     display: grid;
-    grid-template-columns: repeat(3 1fr);
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 20px;
+    padding: 10px;
+}
+.collections{
+    margin-bottom: 20px;
+    text-align: center;
 }
 h2{
     font-size: 40px;
@@ -102,9 +108,25 @@ h2{
     padding-bottom: 10px;
     font-size: 20px;
 }
+.h3-font{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.h4-font{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.pragraph-font{
+    font-size: 25px;
+}
 .ratings{
     font-size: 10px;
-    color: goldenrod;
+    color: #FFC014;
+}
+.point{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #5E6366;
 }
 /* third topic end */
     
