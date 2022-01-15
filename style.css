@@ -59,19 +59,36 @@ nav li{
     height: 500px;
 }
 .button{
+    display: flex;
+    justify-content:center;
     
+    align-items: center;
     text-decoration: none;
     font-size: 25px;
-    text-decoration: none;
     color: white;
     background-color: #EF3B7C;
-    padding: 10px 20px;
-    border-radius: 20px;
- 
-
+    width: 150px;
+    margin-right: 20px;
+    padding:10px, 20px;
+    border-radius:80px;
 }
-.fa-long-arrow-alt-right{
-    position: relative;
+.button2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    background-color: #EF3B7C;
+    width: 150px;
+    margin-left: 25px;
+    margin-right: 20px;
+    padding:10px, 20px;
+    border-radius:80px;
+}
+fa-long-arrow-alt-right{
+position: relative;
+justify-content: space-between;
 }
 /* first-topic end */
 /* second topic start */
@@ -129,6 +146,34 @@ h2{
     color: #5E6366;
 }
 /* third topic end */
+/* fourth topic start */
+.featured-products{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.featured-article{
+    margin:30px;
+    font-size: 50px;
+}
+.f-p{
+    color: white;
+    background-color: #E02C6D;
+    padding: 5px;
+    border-radius: 40px;
+    text-align: center;
+}
+.featured-image img{
+   width: 404px;
+   height: 270px;
+   border-radius: 30px; 
+}
+
+.featured-pragraph{
+    margin-left: 30px;
+    font-size: 30px;
+}
+/* fourth topic end */
     
 
 
