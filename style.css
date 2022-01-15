@@ -87,6 +87,26 @@ hr{
     margin-left: 30px;
 }
 /* second topic end */
+/* third topic start */
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+.blogs{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.ratings{
+    font-size: 10px;
+    color: goldenrod;
+}
+/* third topic end */
     
 
 
